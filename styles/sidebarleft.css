@@ -1,0 +1,164 @@
+.sidebar-left {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 320px;
+  height: 100%;
+  border-right: 1px solid #333;
+  box-sizing: border-box;
+  z-index: 100;
+}
+.side-bar {
+  width: 130px;
+  display: flex;
+  margin-left: 45px;
+  align-items: center;
+  flex-direction: column;
+}
+.sidebar-link-one {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 58px;
+  margin-bottom: 8px;
+  height: 40px;
+}
+
+.sidebar-link-one img {
+  height: 32px;
+  filter: invert(100%);
+  padding-top: 9px;
+  padding-left: 12px;
+  padding-right: 9px;
+  padding-bottom: 9px;
+  border-radius: 35px;
+  color: white;
+  cursor: pointer;
+}
+.sidebar-link-one img:hover {
+  background-color: gainsboro;
+}
+
+.sidebar-link {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 8px;
+  padding-right: 10px;
+  margin: 0 auto;
+  margin-bottom: 2px;
+  margin-left: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.sidebar-link:hover {
+  background-color: rgb(36, 35, 35);
+}
+
+.sidebar-link img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  filter: invert(100%);
+  padding-right: 12px;
+}
+.sidebar-link .hommy {
+  height: 34px;
+  padding: 4px 6px 4px 0;
+}
+.home {
+  font-family: Roboto, Arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.icon {
+  font-family: Roboto, Arial;
+  font-size: 20px;
+  color: white;
+}
+
+.post-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 35px;
+  border-radius: 50px;
+  background-color: rgb(231, 233, 234);
+  margin-top: 8px;
+  margin-left: 47px;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+.post-one {
+  font-family: Arial;
+  color: rgba(0, 0, 0, 0);
+  font-size: 20px;
+  text-decoration: none;
+  padding-top: 11px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  margin-top: 25px;
+  margin-left: 40px;
+  padding: 12px 12px;
+  padding-left: 10px;
+  padding-right: 12px;
+  border-radius: 70px;
+  cursor: pointer;
+}
+.container:hover {
+  background-color: rgb(36, 35, 35);
+}
+.account {
+  text-align: center;
+}
+.account-ones {
+  font-family: Roboto, Arial;
+  font-size: 20px;
+  font-weight: 500;
+  width: 25px;
+  height: 25px;
+  padding: 7px;
+  text-align: center;
+  border-radius: 50px;
+  background-color: rgb(255, 83, 47);
+  color: white;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+.account-profile {
+  width: 160px;
+}
+.account-name {
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 6px;
+  color: aliceblue;
+}
+.account-id {
+  font-family: Roboto, Arial;
+  font-size: 16px;
+  color: rgb(97, 94, 94);
+}
+.three-dot {
+  height: 20px;
+  width: 20px;
+  filter: invert(100%);
+  margin-left: 20px;
+  margin-bottom: 10px;
+}

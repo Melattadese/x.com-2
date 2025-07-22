@@ -1,0 +1,26 @@
+.header-middle-two {
+  position: relative;
+  width: 600px;
+  height: 60px;
+  border-left: 1px solid #333;
+  border-bottom: 1px solid #333;
+  border-right: 1px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-middle-two-post {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 30px;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+.post-two {
+  font-family: Roboto, Arial;
+  font-size: 16px;
+  color: rgb(29, 155, 240);
+  cursor: pointer;
+}
